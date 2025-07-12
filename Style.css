@@ -1,0 +1,141 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white; /*letter space para espaçar a letra*/
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#inicio h1{
+    font-weight: 500;
+    color: #3778FA;
+    font-size: 1.25rem; /*mudar o px depois*/
+
+}
+
+#inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 3.5rem;
+}
+
+.menu_desktop{
+display: none;
+}
+
+#login {
+display: none;
+}
+
+#frase_inicial h2{
+    display: flex;
+    font-weight: 600;
+    font-size: 2.875rem;
+    letter-spacing: -2px;
+    text-align: center;
+    
+}
+
+.tela #frase{
+    display: flex;
+    font-weight: 400;
+    font-size:0.875rem ;
+    line-height: 1.375rem;
+    padding-top: 1.2rem; 
+    text-align: center;
+}
+
+.tela{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3.5rem; 
+}
+
+.tela .card{
+    padding-top: 2.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.tela h3{
+    font-weight: 600;
+    font-size: 1.875rem;
+    letter-spacing: -2px ;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+#tela_final{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3.5rem; 
+    
+}
+
+#tela_final h3{
+    font-weight: 600;
+    font-size: 1.875rem;
+    letter-spacing: -2px ;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#card_final{
+ 
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    background-color: #F3F3F3 ;
+    width: 100%;
+    border-radius: 1.25rem ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.5rem;
+   
+}
+
+#card_final img{
+    justify-content: center;
+    border-radius: 1rem;
+    max-width: 90%;
+    height: auto;
+    padding-top: 2.5rem;    
+}
+
+footer{
+    background-color: #3778FA;
+    border-radius: 1.25rem;
+    color:white;
+    margin-top: 4rem;
+}
+#inicio_footer{
+    width: 90%;;
+    margin: 0 auto;
+}
+#inicio_footer h2{
+    font-weight: 600;
+    font-size: 2.875rem ;
+    letter-spacing: -2px;
+}
