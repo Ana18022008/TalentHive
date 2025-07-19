@@ -126,7 +126,8 @@ display: none;
 
 footer{
     background-color: #3778FA;
-    border-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
     color:white;
     margin-top: 6.5rem;
    
@@ -146,11 +147,12 @@ footer{
 }
 
 #inicio_footer .frase{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 0.875rem;
     line-height: 1.375rem;
     padding-top: 1.8rem;
     width:18rem;
+    
 }
 
 #inicio_footer a{
@@ -159,6 +161,7 @@ footer{
     line-height: 0.875rem;
     color: black;
     text-decoration: none; /* editar a altura */
+    font-family: "Space Grotesk", sans-serif;
     
 }
 
@@ -167,5 +170,114 @@ footer{
     width:7.4375rem ; 
     height: 2.5rem;
     border: none;
+    margin-top: 2rem;
+    margin-bottom: 3.7rem;
+}
+
+#divisor{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    width: 24.25rem;
+    display: flex;
+    justify-self: center;
+}
+
+.informacoes h4{
+    font-weight: 500;
+    font-style: medium;
+    font-size:1.25rem ;
+    margin-bottom: 1rem;
+}
+
+.informacoes p{
+    font-weight: 300;
+    font-size: 0.875rem;
+    width: 12.1875rem;
+    height: 5.5rem ;
+    line-height: 1.375rem;
+    
+}
+
+#informacoes_links a{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-style: medium;
+    line-height:1.375rem;
    
+}
+
+#informacoes_links{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ height: 6.875rem;
+}
+
+
+#meio_footer{
+    width: 90%;;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5.5rem;
+}
+
+#dados{
+    width: 90%;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:6.875rem ;
+    
+}
+
+#dados #dado1{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#dados .dados2{
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#dados .dados2 a{
+    text-decoration: none;
+    color:white
+}
+
+#final_footer{
+    margin:0 auto;
+    width: 90%;
+    margin-top: 5rem;
+    width: 18rem;
+    height:8.9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+   
+    
+}
+
+#final_footer p{
+    font-weight: 300;
+    font-size:0.875rem;
+}
+
+#final_footer #rua{
+    letter-spacing: 2.5%;
+}
+
+#final_footer a{
+    color: #A0DA7A;
+    text-decoration: none;
 }
